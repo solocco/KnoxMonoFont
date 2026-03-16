@@ -1,15 +1,15 @@
-[buildPlans.KnoxMono]
-family = "Knox Mono"
+[buildPlans.CidMono]
+family = "Cid Mono"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 buildTextureFeature = true
 
-[buildPlans.KnoxMono.variants]
+[buildPlans.CidMono.variants]
 inherits = "ss14"
 
-[buildPlans.KnoxMono.variants.design]
+[buildPlans.CidMono.variants.design]
 one = "base"
 two = "straight-neck-serifless"
 three = "flat-top-serifless"
@@ -85,40 +85,40 @@ lig-plus-chain = "without-notch"
 lig-double-arrow-bar = "without-notch"
 lig-single-arrow-bar = "without-notch"
 
-[buildPlans.KnoxMono.ligations]
+[buildPlans.CidMono.ligations]
 inherits = "default-calt"
 enables = [
   "eqeqeq", # Triple-line equality ligation
   "exeqeq", # Triple-line inequality ligation
 ]
-[buildPlans.KnoxMono.weights.Regular]
+[buildPlans.CidMono.weights.Regular]
 shape = 415
 menu = 400
 css = 400
-[buildPlans.KnoxMono.weights.Bold]
+[buildPlans.CidMono.weights.Bold]
 shape = 700
 menu = 700
 css = 700
-[buildPlans.KnoxMono.weights.Medium]
+[buildPlans.CidMono.weights.Medium]
 shape = 510
 menu = 500
 css = 500
-[buildPlans.KnoxMono.widths.Normal]
+[buildPlans.CidMono.widths.Normal]
 shape = 604
 menu = 5
 css = "normal"
-[buildPlans.KnoxMono.slopes.Upright]
+[buildPlans.CidMono.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
-[buildPlans.KnoxMono.slopes.Italic]
+[buildPlans.CidMono.slopes.Italic]
 angle = 9.5
 shape = "italic"
 menu = "italic"
 css = "italic"
 # Metric overrides
-[buildPlans.KnoxMono.metricOverride]
+[buildPlans.CidMono.metricOverride]
 xHeight = 540
 cap = 720
 ascender = 735
